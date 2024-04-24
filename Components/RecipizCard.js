@@ -10,7 +10,7 @@ const RecipizCard = () => (
       <Text variant="titleLarge">Card title</Text>
       <Text variant="bodyMedium">Card content</Text>
     </Card.Content>
-    <Card.Cover source={{ uri: 'https://picsum.photos/700' }} />
+    <Card.Cover source={ require ('./../assets/logo-recipiz.png')} />
     <Card.Actions>
       <Button>Cancel</Button>
       <Button>Ok</Button>
